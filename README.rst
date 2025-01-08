@@ -9,6 +9,15 @@ Installation
   4. You should see the Python version number displayed.
 
 **Install Robot Framework**
-  1. Open Command Prompt (CMD), run the following command: ``` pip install -r requirements.txt ```
-  2. Open Command Prompt (CMD), run the following command: ``` robot --version ```
-  3. You should see the Robot Framework version number displayed.
+  1. Open Command Prompt (CMD), run the following command:
+    - ``` pip install -r requirements.txt ```
+    - ``` robot --version ```
+  2. You should see the Robot Framework version number displayed.
+
+**Install Appium**
+  1. Open Command Prompt (CMD), run the following command: 
+    - ``` npm i --location=global appium ```
+    - ``` appium --version ```
+  2. You should see the Appium version number displayed.
+  3. Appium inspector, Download https://github.com/appium/appium-inspector/releases
+    - ``` Appium-Inspector-2024.12.1-win-x64.exe ```
