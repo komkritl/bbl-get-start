@@ -1,7 +1,7 @@
 *** Settings ***
 Library          String
 Variables        variable.yaml
-Resource         resource.robot
+Resource         resource.resource
 
 Suite Setup       Log To Console    >> Suite Setup <<
 Test Setup        Log To Console    << Test Setup >>
