@@ -1,3 +1,3 @@
 *** Keywords ***
-Run Resource
-    Log To Console    >> Run Resource <<
+Run From Resource
+    Log To Console    >> Run From Resource <<

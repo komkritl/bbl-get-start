@@ -15,5 +15,5 @@ Test Teardown     Log To Console    << Test Teardown >>
 02 - Log Variable
     Log To Console    ${TEST}
 
-03 - Run Resource
-    Run Resource
+03 - Run From Resource
+    Run From Resource
