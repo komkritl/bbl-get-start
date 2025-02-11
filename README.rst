@@ -15,7 +15,7 @@ Installation
 
 **Install Robot Framework**
   1. Open Command Prompt (CMD), run the following command:
-    - ``` pip install -r requirements.txt ```
+    - ``` pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt ```
     - ``` robot --version ```
   2. You should see the Robot Framework version number displayed.
 
