@@ -1,4 +1,7 @@
 *** Settings ***
+Documentation    Importing test libraries, resource files and variable files.
+...              Defining pre or post condition for test suite, test case
+
 Library          String
 Variables        variable.yaml
 Resource         resource.resource
