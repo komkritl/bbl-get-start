@@ -9,4 +9,17 @@
         Log To Console    >> True <<
     ELSE
         Log To Console    << False >>
-    END 
+    END
+
+03 - Multiple condition
+    ${rc}    Set Variable    0
+    IF    ${rc} > 0
+        Log To Console    Positive
+    ELSE IF    ${rc} == 0
+        Log To Console    Zero
+        IF    ${rc} == 0
+            Log To Console    Zero agian
+        END
+    ELSE
+        Fail    Unexpected rc: ${rc}
+    END
