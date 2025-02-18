@@ -39,5 +39,5 @@ Installation
 **Install Android studio**
   1. Android studio, Download and install Android studio from the official website: https://developer.android.com/studio/index.html
   2. Open Android studio, SDK Manager, Download and install SDK.
-  3. Add ANDROID_HOME: ``` C:\Users\xxx\AppData\Local\Android\Sdk\platform-tools ``` to PATH.
+  3. Add Android: ``` C:\Users\xxx\AppData\Local\Android\Sdk\platform-tools ``` to PATH.
   4. Open Android studio, Virtual Device Manager, Create Device.
