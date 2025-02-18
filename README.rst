@@ -34,6 +34,7 @@ Installation
 **Install JDK 1.8**
   1. JDK 1.8, Download and install JDK 1.8 from the official website: https://www.oracle.com/java/technologies/downloads/#java8
   2. Add JAVA_HOME: ``` C:\Program Files\Java\jdk1.8.0_<xxx> ``` to system environment.
+  3. Add JAVA bin ``` C:\Program Files\Java\jdk1.8.0_<xxx>\bin ``` to PATH.
 
 **Install Android studio**
   1. Android studio, Download and install Android studio from the official website: https://developer.android.com/studio/index.html
