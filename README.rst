@@ -24,5 +24,9 @@ Installation
     - ``` npm i --location=global appium ```
     - ``` appium --version ```
   2. You should see the Appium version number displayed.
-  3. Appium inspector, Download https://github.com/appium/appium-inspector/releases
+  3. Install driver uiautomator2
+    - ``` appium driver install uiautomator2 ```
+  4. Install deriver xcuitest
+    - ``` appium driver install xcuitest ```
+  5. Appium inspector, Download https://github.com/appium/appium-inspector/releases
     - ``` Appium-Inspector-2024.12.1-win-x64.exe ```
