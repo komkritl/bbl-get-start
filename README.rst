@@ -9,7 +9,7 @@ Installation
 
 **Install Python**
   1. Python version >= 3.8, Download and install Python from the official website: https://www.python.org/downloads/
-  2. Add Python to PATH
+  2. Add Python: ``` C:\Users\xxx\AppData\Roaming\Python\Pythonxxx\Scripts ``` to PATH.
   3. Open Command Prompt (CMD), run the following command: ``` python --version ```
   4. You should see the Python version number displayed.
 
@@ -22,13 +22,14 @@ Installation
 **Install Appium**
   1. Open Command Prompt (CMD), run the following command: 
     - ``` npm i --location=global appium ```
+  2. Add npm: ``` C:\Users\xxx\AppData\AppData\Roaming\npm ``` to PATH.
     - ``` appium --version ```
-  2. You should see the Appium version number displayed.
-  3. Install driver uiautomator2
+  3. You should see the Appium version number displayed.
+  4. Install driver uiautomator2
     - ``` appium driver install uiautomator2 ```
-  4. Install deriver xcuitest
+  5. Install deriver xcuitest
     - ``` appium driver install xcuitest ```
-  5. Appium inspector, Download https://github.com/appium/appium-inspector/releases
+  6. Appium inspector, Download https://github.com/appium/appium-inspector/releases
     - ``` Appium-Inspector-2024.12.1-win-x64.exe ```
 
 **Install JDK 1.8**
